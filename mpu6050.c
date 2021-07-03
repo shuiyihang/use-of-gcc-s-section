@@ -14,7 +14,7 @@ int mpu6050_init(struct device *dev)
 
 void mpu6050_read(void)
 {
-    printf("mpu6050 ax:%d ay:%d az:%d\n",120,60,0);
+    printf("mpu6050 ax:%d ay:%d az:%d\t\n",120,60,0);
 }
 
 const mpu6050_api_t  iic_6050_api = {
